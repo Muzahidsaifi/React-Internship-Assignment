@@ -1,0 +1,33 @@
+.card {
+  padding: 1.5rem;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.overlay-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
